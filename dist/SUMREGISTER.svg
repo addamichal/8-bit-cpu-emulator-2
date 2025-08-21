@@ -92,7 +92,7 @@
 <circle cx="1080.0" cy="180.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="EO"/>
 <circle cx="780.0" cy="380.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="alu_SUM6"/>
 </g>
-<g>
+<g class="ALU" pointer-events="visible">
 <path d="M 581,246 L 719,246 L 719,594 L 581,594 Z" stroke="#ffffb4" stroke-width="0.0" fill="#ffffb4" fill-opacity="0.7843137254901961"/>
 <path d="M 581,246 L 719,246 L 719,594 L 581,594 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <text text-anchor="start" x="584.0" y="266.75" fill="#808080" style="font-size:18px">A0</text>
@@ -359,7 +359,7 @@
 <text text-anchor="end" x="335.0" y="89.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">EO</tspan></text>
 <circle cx="380.0" cy="80.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g>
+<g class="ISZERO" pointer-events="visible">
 <path d="M 921,446 L 1059,446 L 1059,634 L 921,634 Z" stroke="#ffffb4" stroke-width="0.0" fill="#ffffb4" fill-opacity="0.7843137254901961"/>
 <path d="M 921,446 L 1059,446 L 1059,634 L 921,634 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <text text-anchor="start" x="924.0" y="466.75" fill="#808080" style="font-size:18px">D0</text>
