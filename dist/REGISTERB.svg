@@ -279,49 +279,49 @@
 <text text-anchor="start" x="1320.0" y="-16.0" fill="#000000" style="font-size:24px" transform="rotate(-90,1320.0,-25.0)"><tspan style="font-style:italic;">OUT0</tspan></text>
 <circle cx="1320.0" cy="20.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g>
+<g class="NOT" pointer-events="visible">
 <path d="M 1028,99 L 1040,61 L 1052,99 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1040.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1020.0" cy="80.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1040.0" cy="60.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g>
+<g class="NOT" pointer-events="visible">
 <path d="M 1068,99 L 1080,61 L 1092,99 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1080.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1060.0" cy="80.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1080.0" cy="60.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g>
+<g class="NOT" pointer-events="visible">
 <path d="M 1108,99 L 1120,61 L 1132,99 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1120.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1100.0" cy="80.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1120.0" cy="60.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g>
+<g class="NOT" pointer-events="visible">
 <path d="M 1148,99 L 1160,61 L 1172,99 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1160.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1140.0" cy="80.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1160.0" cy="60.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g>
+<g class="NOT" pointer-events="visible">
 <path d="M 1188,99 L 1200,61 L 1212,99 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1200.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1180.0" cy="80.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1200.0" cy="60.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g>
+<g class="NOT" pointer-events="visible">
 <path d="M 1228,99 L 1240,61 L 1252,99 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1240.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1220.0" cy="80.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1240.0" cy="60.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g>
+<g class="NOT" pointer-events="visible">
 <path d="M 1268,99 L 1280,61 L 1292,99 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1280.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1260.0" cy="80.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1280.0" cy="60.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g>
+<g class="NOT" pointer-events="visible">
 <path d="M 1308,99 L 1320,61 L 1332,99 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1320.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1300.0" cy="80.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>

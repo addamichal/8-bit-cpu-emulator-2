@@ -46,7 +46,7 @@ const paintOutputs = (components: Element[]) => {
         if ((component.type === 'Input' || component.type === 'NAND' || component.type == "Bus") && component.id.indexOf('_') === -1 || component.id.split('_').length === 2 && component.type === 'Output') {
             console.log(component);
 
-            
+
             let elements = document.getElementsByClassName(component.id);
 
 
@@ -105,5 +105,11 @@ fetch('./' + circuit + '.svg')
                 })
             }
         }
+
+        document.querySelectorAll('g').forEach((el: any) => {
+            const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
+            title.textContent = el.getAttribute("class");
+            el.appendChild(title);
+        });
     })
     .catch(error => console.error('Error loading SVG:', error));

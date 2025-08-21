@@ -31,3 +31,12 @@ circle.high-impedance {
     stroke: grey;
     fill: grey;
 }
+
+.Input {
+    cursor: pointer;
+}
+
+g[pointer-events=visible] {
+    cursor: pointer;
+    pointer-events: visible;
+}
