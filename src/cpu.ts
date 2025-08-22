@@ -532,7 +532,7 @@ export let cpu: Element[] = [
     },
     {
         id: 'MAR',
-        type: 'MAR',
+        type: 'MAR2',
         inputs: {
             D0: 'BUS0.OUT',
             D1: 'BUS1.OUT',

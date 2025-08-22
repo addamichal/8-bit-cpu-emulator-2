@@ -4,7 +4,7 @@ import { circuitsLookup } from './circuits';
 import { evaluateAll } from './evaluate';
 import { translateAll } from './translate';
 
-let components: Element[] = circuitsLookup.OPCODECOUNTER.parts;
+let components: Element[] = circuitsLookup.MAR.parts;
 
 components = translateAll(components, circuitsLookup);
 

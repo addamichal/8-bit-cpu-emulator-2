@@ -1134,6 +1134,123 @@ export const modules: Circuit[] = [
     id: 'MAR',
     parts: [
       {
+        id: 'DIP0',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIP1',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIP2',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIP3',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'MI',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'CLK',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'CLR',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D0',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D1',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D2',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D3',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'MODE',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'register',
+        type: 'REGISTER4',
+        inputs: {
+          D0: 'D0.OUT',
+          D1: 'D1.OUT',
+          D2: 'D2.OUT',
+          D3: 'D3.OUT',
+          LOAD: 'MI.OUT',
+          CLK: 'CLK.OUT',
+          CLR: 'CLR.OUT'
+        }
+      },
+      {
+        id: 'mux',
+        type: 'MUX4',
+        inputs: {
+          A0: 'DIP0.OUT',
+          A1: 'DIP1.OUT',
+          A2: 'DIP2.OUT',
+          A3: 'DIP3.OUT',
+          B0: 'register.OUT0',
+          B1: 'register.OUT1',
+          B2: 'register.OUT2',
+          B3: 'register.OUT3',
+          SEL: 'MODE.OUT'
+        }
+      },
+      {
+        id: 'REG0',
+        type: 'Output',
+        inputs: { IN: 'mux.Y0' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'REG1',
+        type: 'Output',
+        inputs: { IN: 'mux.Y1' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'REG2',
+        type: 'Output',
+        inputs: { IN: 'mux.Y2' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'REG3',
+        type: 'Output',
+        inputs: { IN: 'mux.Y3' },
+        outputs: { OUT: false }
+      }
+    ]
+  },
+  {
+    id: 'MAR2',
+    parts: [
+      {
         id: 'CLR',
         type: 'Input',
         outputs: { OUT: false }

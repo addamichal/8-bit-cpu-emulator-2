@@ -845,7 +845,7 @@ export interface OUTPUTREGISTER {
 
 export interface MAR {
   id: string;
-  type: 'MAR';
+  type: 'MAR2';
   inputs: {
     D0: string;
     D1: string;

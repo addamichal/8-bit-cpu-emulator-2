@@ -2117,3 +2117,27 @@
 .Y15 {
     stroke: #7B68EE;
 }
+
+/* DarkOrange */
+.DIP0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.DIP1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.DIP2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.DIP3 {
+    stroke: #7B68EE;
+}
+
+.MODE, .MI {
+    stroke: #7B68EE;
+}
