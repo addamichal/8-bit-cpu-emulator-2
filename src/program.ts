@@ -68,6 +68,19 @@ export function getProgram(name: string): string[] {
   
       return program;
     }
+
+    if (name === 'count to 255 and back') {
+      program[0] = 'out';
+      program[1] = 'add 15';
+      program[2] = 'jc 4';
+      program[3] = 'jmp 0';
+      program[4] = 'sub 15';
+      program[5] = 'out';
+      program[6] = 'jz 0';
+      program[7] = 'jmp 4'
+      program[15] = '1';
+      return program;
+    }
   
     throw new Error(`Unknown program: ${name}`);
   }
