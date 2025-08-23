@@ -1134,22 +1134,22 @@ export const modules: Circuit[] = [
     id: 'MAR',
     parts: [
       {
-        id: 'DIP0',
+        id: 'DIPA0',
         type: 'Input',
         outputs: { OUT: false }
       },
       {
-        id: 'DIP1',
+        id: 'DIPD1',
         type: 'Input',
         outputs: { OUT: false }
       },
       {
-        id: 'DIP2',
+        id: 'DIPD2',
         type: 'Input',
         outputs: { OUT: false }
       },
       {
-        id: 'DIP3',
+        id: 'DIPD3',
         type: 'Input',
         outputs: { OUT: false }
       },
@@ -1210,10 +1210,10 @@ export const modules: Circuit[] = [
         id: 'mux',
         type: 'MUX4',
         inputs: {
-          A0: 'DIP0.OUT',
-          A1: 'DIP1.OUT',
-          A2: 'DIP2.OUT',
-          A3: 'DIP3.OUT',
+          A0: 'DIPA0.OUT',
+          A1: 'DIPD1.OUT',
+          A2: 'DIPD2.OUT',
+          A3: 'DIPD3.OUT',
           B0: 'register.OUT0',
           B1: 'register.OUT1',
           B2: 'register.OUT2',
@@ -1352,6 +1352,265 @@ export const modules: Circuit[] = [
   },
   {
     id: 'MEMORYCONTENTS',
+    parts: [
+      {
+        id: 'MODE',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'WRITE',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'RI',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'RO',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'CLK',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'A0',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'A1',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'A2',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'A3',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIPD0',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIPD1',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIPD2',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIPD3',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIPD4',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIPD5',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIPD6',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'DIPD7',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D0',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D1',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D2',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D3',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D4',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D5',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D6',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'D7',
+        type: 'Input',
+        outputs: { OUT: false }
+      },
+      {
+        id: 'mux8',
+        type: 'MUX8',
+        inputs: {
+          A0: 'DIPD0.OUT', A1: 'DIPD1.OUT', A2: 'DIPD2.OUT', A3: 'DIPD3.OUT', A4: 'DIPD4.OUT', A5: 'DIPD5.OUT', A6: 'DIPD6.OUT', A7: 'DIPD7.OUT',
+          B0: 'D0.OUT', B1: 'D1.OUT', B2: 'D2.OUT', B3: 'D3.OUT', B4: 'D4.OUT', B5: 'D5.OUT', B6: 'D6.OUT', B7: 'D7.OUT',
+          SEL: 'MODE.OUT'
+        }
+      },
+      {
+        id: 'and',
+        type: 'AND',
+        inputs: { A: 'RI.OUT', B: 'CLK.OUT' }
+      },
+      {
+        id: 'mux',
+        type: 'MUX',
+        inputs: { A: 'WRITE.OUT', B: 'and.OUT', SEL: 'MODE.OUT' }
+      },
+      {
+        id: 'RAM',
+        type: 'RAM',
+        inputs: {
+          A0: 'A0.OUT', A1: 'A1.OUT', A2: 'A2.OUT', A3: 'A3.OUT',
+          D0: 'mux8.Y0', D1: 'mux8.Y1', D2: 'mux8.Y2', D3: 'mux8.Y3', D4: 'mux8.Y4', D5: 'mux8.Y5', D6: 'mux8.Y6', D7: 'mux8.Y7',
+          E: 'CONST_1', W: 'mux.Y'
+        }
+      },
+      {
+        id: 'RAM0',
+        type: 'Output',
+        inputs: { IN: 'RAM.O0' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'RAM1',
+        type: 'Output',
+        inputs: { IN: 'RAM.O1' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'RAM2',
+        type: 'Output',
+        inputs: { IN: 'RAM.O2' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'RAM3',
+        type: 'Output',
+        inputs: { IN: 'RAM.O3' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'RAM4',
+        type: 'Output',
+        inputs: { IN: 'RAM.O4' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'RAM5',
+        type: 'Output',
+        inputs: { IN: 'RAM.O5' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'RAM6',
+        type: 'Output',
+        inputs: { IN: 'RAM.O6' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'RAM7',
+        type: 'Output',
+        inputs: { IN: 'RAM.O7' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'tri8',
+        type: 'TriState8',
+        inputs: { IN0: 'RAM0.OUT', IN1: 'RAM1.OUT', IN2: 'RAM2.OUT', IN3: 'RAM3.OUT', IN4: 'RAM4.OUT', IN5: 'RAM5.OUT', IN6: 'RAM6.OUT', IN7: 'RAM7.OUT', SEL: 'RO.OUT' }
+      },
+      {
+        id: 'OUT0',
+        type: 'Output',
+        inputs: { IN: 'tri8.OUT0' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'OUT1',
+        type: 'Output',
+        inputs: { IN: 'tri8.OUT1' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'OUT2',
+        type: 'Output',
+        inputs: { IN: 'tri8.OUT2' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'OUT3',
+        type: 'Output',
+        inputs: { IN: 'tri8.OUT3' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'OUT4',
+        type: 'Output',
+        inputs: { IN: 'tri8.OUT4' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'OUT5',
+        type: 'Output',
+        inputs: { IN: 'tri8.OUT5' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'OUT6',
+        type: 'Output',
+        inputs: { IN: 'tri8.OUT6' },
+        outputs: { OUT: false }
+      },
+      {
+        id: 'OUT7',
+        type: 'Output',
+        inputs: { IN: 'tri8.OUT7' },
+        outputs: { OUT: false }
+      },
+    ]
+  },
+  {
+    id: 'MEMORYCONTENTS2',
     parts: [
       {
         id: 'MODE',

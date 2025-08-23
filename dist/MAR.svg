@@ -1,18 +1,18 @@
 <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="800px" viewBox="401 -97 790 574">
 <g stroke-linecap="square">
-<path d="M 520,0 L 560,0 L 560,-40 L 940,-40" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIP2"/>
+<path d="M 520,0 L 560,0 L 560,-40 L 940,-40" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIPD2"/>
 <path d="M 520,160 L 600,160 L 600,220 L 640,220" stroke="#0000b2" stroke-width="4.0" fill="none" class="CLK"/>
 <path d="M 520,260 L 640,260" stroke="#0000b2" stroke-width="4.0" fill="none" class="D0"/>
 <path d="M 780,260 L 860,260 L 860,60 L 940,60" stroke="#0000b2" stroke-width="4.0" fill="none" class="register_OUT3"/>
 <path d="M 1000,-40 L 1040,-40 L 1040,0 L 1080,0" stroke="#0000b2" stroke-width="4.0" fill="none" class="mux_Y2"/>
-<path d="M 520,-40 L 540,-40 L 540,-60 L 940,-60" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIP1"/>
+<path d="M 520,-40 L 540,-40 L 540,-60 L 940,-60" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIPD1"/>
 <path d="M 520,200 L 580,200 L 580,240 L 640,240" stroke="#0000b2" stroke-width="4.0" fill="none" class="CLR"/>
 <path d="M 780,200 L 800,200 L 800,0 L 940,0" stroke="#0000b2" stroke-width="4.0" fill="none" class="register_OUT0"/>
-<path d="M 520,40 L 580,40 L 580,-20 L 940,-20" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIP3"/>
+<path d="M 520,40 L 580,40 L 580,-20 L 940,-20" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIPD3"/>
 <path d="M 520,300 L 540,300 L 540,280 L 640,280" stroke="#0000b2" stroke-width="4.0" fill="none" class="D1"/>
 <path d="M 520,460 L 900,460 L 900,80 L 940,80" stroke="#0000b2" stroke-width="4.0" fill="none" class="MODE"/>
 <path d="M 1000,-80 L 1080,-80" stroke="#0000b2" stroke-width="4.0" fill="none" class="mux_Y0"/>
-<path d="M 520,-80 L 940,-80" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIP0"/>
+<path d="M 520,-80 L 940,-80" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIPA0"/>
 <path d="M 780,240 L 840,240 L 840,40 L 940,40" stroke="#0000b2" stroke-width="4.0" fill="none" class="register_OUT2"/>
 <path d="M 1000,-20 L 1020,-20 L 1020,40 L 1080,40" stroke="#0000b2" stroke-width="4.0" fill="none" class="mux_Y3"/>
 <path d="M 520,340 L 560,340 L 560,300 L 640,300" stroke="#0000b2" stroke-width="4.0" fill="none" class="D2"/>
@@ -22,28 +22,28 @@
 <path d="M 780,220 L 820,220 L 820,20 L 940,20" stroke="#0000b2" stroke-width="4.0" fill="none" class="register_OUT1"/>
 <g>
 </g>
-<g class="Input" id="DIP0" pointer-events="visible">
+<g class="Input" id="DIPA0" pointer-events="visible">
 <path d="M 489,-95 L 519,-95 L 519,-65 L 489,-65 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
-<circle cx="504.0" cy="-80.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIP0"/>
-<text text-anchor="end" x="475.0" y="-71.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIP0</tspan></text>
+<circle cx="504.0" cy="-80.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIPA0"/>
+<text text-anchor="end" x="475.0" y="-71.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIPA0</tspan></text>
 <circle cx="520.0" cy="-80.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="Input" id="DIP1" pointer-events="visible">
+<g class="Input" id="DIPD1" pointer-events="visible">
 <path d="M 489,-55 L 519,-55 L 519,-25 L 489,-25 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
-<circle cx="504.0" cy="-40.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIP1"/>
-<text text-anchor="end" x="475.0" y="-31.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIP1</tspan></text>
+<circle cx="504.0" cy="-40.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIPD1"/>
+<text text-anchor="end" x="475.0" y="-31.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIPD1</tspan></text>
 <circle cx="520.0" cy="-40.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="Input" id="DIP2" pointer-events="visible">
+<g class="Input" id="DIPD2" pointer-events="visible">
 <path d="M 489,-15 L 519,-15 L 519,15 L 489,15 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
-<circle cx="504.0" cy="0.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIP2"/>
-<text text-anchor="end" x="475.0" y="9.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIP2</tspan></text>
+<circle cx="504.0" cy="0.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIPD2"/>
+<text text-anchor="end" x="475.0" y="9.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIPD2</tspan></text>
 <circle cx="520.0" cy="0.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="Input" id="DIP3" pointer-events="visible">
+<g class="Input" id="DIPD3" pointer-events="visible">
 <path d="M 489,25 L 519,25 L 519,55 L 489,55 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
-<circle cx="504.0" cy="40.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIP3"/>
-<text text-anchor="end" x="475.0" y="49.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIP3</tspan></text>
+<circle cx="504.0" cy="40.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIPD3"/>
+<text text-anchor="end" x="475.0" y="49.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIPD3</tspan></text>
 <circle cx="520.0" cy="40.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
 <g class="MUX4" pointer-events="visible">

@@ -81,6 +81,11 @@ fetch('./' + circuit + '.svg')
         inputs.forEach(input => {
             input.addEventListener('click', onclick);
             let component = componentLookup[input.id];
+
+            if (!component) {
+                throw Error("unknown component: " + input.id);
+            }
+
             if (component.type === 'Input') {
                 let out = component.outputs.OUT;
                 if (out) {
