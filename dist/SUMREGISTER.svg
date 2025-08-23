@@ -1,5 +1,5 @@
 <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="800px" viewBox="301 63 1045 894">
-<g stroke-linecap="square" class="NOT" pointer-events="visible">
+<g stroke-linecap="square">
 <path d="M 1120,100 L 1120,113" stroke="#000000" stroke-width="4.0" fill="none"/>
 <path d="M 1120,140 L 1120,153" stroke="#000000" stroke-width="4.0" fill="none"/>
 <path d="M 1120,180 L 1120,193" stroke="#000000" stroke-width="4.0" fill="none"/>
@@ -251,43 +251,43 @@
 <text text-anchor="end" x="335.0" y="769.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">SU</tspan></text>
 <circle cx="380.0" cy="760.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="NOT" pointer-events="visible">
+<g>
 <path d="M 1101,108 L 1139,120 L 1101,132 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1100.0" cy="120.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1120.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1140.0" cy="120.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="NOT" pointer-events="visible">
+<g>
 <path d="M 1101,148 L 1139,160 L 1101,172 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1100.0" cy="160.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1120.0" cy="140.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1140.0" cy="160.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="NOT" pointer-events="visible">
+<g>
 <path d="M 1101,188 L 1139,200 L 1101,212 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1100.0" cy="200.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1120.0" cy="180.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1140.0" cy="200.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="NOT" pointer-events="visible">
+<g>
 <path d="M 1101,228 L 1139,240 L 1101,252 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1100.0" cy="240.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1120.0" cy="220.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1140.0" cy="240.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="NOT" pointer-events="visible">
+<g>
 <path d="M 1101,268 L 1139,280 L 1101,292 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1100.0" cy="280.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1120.0" cy="260.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1140.0" cy="280.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="NOT" pointer-events="visible">
+<g>
 <path d="M 1101,308 L 1139,320 L 1101,332 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1100.0" cy="320.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1120.0" cy="300.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1140.0" cy="320.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="NOT" pointer-events="visible">
+<g>
 <path d="M 1101,348 L 1139,360 L 1101,372 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
 <circle cx="1100.0" cy="360.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1120.0" cy="340.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
@@ -299,55 +299,55 @@
 <circle cx="1120.0" cy="380.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1140.0" cy="400.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="Output" id="SUM7" pointer-events="visible">
+<g class="Output" id="SUM7">
 <circle cx="1216.0" cy="940.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="alu_SUM7"/>
 <circle cx="1216.0" cy="940.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="SUM7"/>
 <text text-anchor="start" x="1245.0" y="949.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">SUM7</tspan></text>
 <circle cx="1200.0" cy="940.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="SUM6" pointer-events="visible">
+<g class="Output" id="SUM6">
 <circle cx="1216.0" cy="900.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="alu_SUM6"/>
 <circle cx="1216.0" cy="900.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="SUM6"/>
 <text text-anchor="start" x="1245.0" y="909.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">SUM6</tspan></text>
 <circle cx="1200.0" cy="900.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="SUM5" pointer-events="visible">
+<g class="Output" id="SUM5">
 <circle cx="1216.0" cy="860.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="alu_SUM5"/>
 <circle cx="1216.0" cy="860.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="SUM5"/>
 <text text-anchor="start" x="1245.0" y="869.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">SUM5</tspan></text>
 <circle cx="1200.0" cy="860.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="SUM4" pointer-events="visible">
+<g class="Output" id="SUM4">
 <circle cx="1216.0" cy="820.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="alu_SUM4"/>
 <circle cx="1216.0" cy="820.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="SUM4"/>
 <text text-anchor="start" x="1245.0" y="829.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">SUM4</tspan></text>
 <circle cx="1200.0" cy="820.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="SUM3" pointer-events="visible">
+<g class="Output" id="SUM3">
 <circle cx="1216.0" cy="780.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="alu_SUM3"/>
 <circle cx="1216.0" cy="780.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="SUM3"/>
 <text text-anchor="start" x="1245.0" y="789.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">SUM3</tspan></text>
 <circle cx="1200.0" cy="780.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="SUM2" pointer-events="visible">
+<g class="Output" id="SUM2">
 <circle cx="1216.0" cy="740.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="alu_SUM2"/>
 <circle cx="1216.0" cy="740.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="SUM2"/>
 <text text-anchor="start" x="1245.0" y="749.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">SUM2</tspan></text>
 <circle cx="1200.0" cy="740.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="SUM1" pointer-events="visible">
+<g class="Output" id="SUM1">
 <circle cx="1216.0" cy="700.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="alu_SUM1"/>
 <circle cx="1216.0" cy="700.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="SUM1"/>
 <text text-anchor="start" x="1245.0" y="709.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">SUM1</tspan></text>
 <circle cx="1200.0" cy="700.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="SUM0" pointer-events="visible">
+<g class="Output" id="SUM0">
 <circle cx="1216.0" cy="660.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="alu_SUM0"/>
 <circle cx="1216.0" cy="660.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="SUM0"/>
 <text text-anchor="start" x="1245.0" y="669.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">SUM0</tspan></text>
 <circle cx="1200.0" cy="660.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="OUT7" pointer-events="visible">
+<g class="Output" id="OUT7">
 <circle cx="1216.0" cy="400.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="tri_OUT7"/>
 <circle cx="1216.0" cy="400.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT7"/>
 <text text-anchor="start" x="1245.0" y="409.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT7</tspan></text>
@@ -382,55 +382,55 @@
 <circle cx="920.0" cy="620.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 <circle cx="1060.0" cy="540.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
-<g class="Output" id="OUT6" pointer-events="visible">
+<g class="Output" id="OUT6">
 <circle cx="1216.0" cy="360.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="tri_OUT6"/>
 <circle cx="1216.0" cy="360.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT6"/>
 <text text-anchor="start" x="1245.0" y="369.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT6</tspan></text>
 <circle cx="1200.0" cy="360.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="OUT5" pointer-events="visible">
+<g class="Output" id="OUT5">
 <circle cx="1216.0" cy="320.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="tri_OUT5"/>
 <circle cx="1216.0" cy="320.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT5"/>
 <text text-anchor="start" x="1245.0" y="329.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT5</tspan></text>
 <circle cx="1200.0" cy="320.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="OUT4" pointer-events="visible">
+<g class="Output" id="OUT4">
 <circle cx="1216.0" cy="280.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="tri_OUT4"/>
 <circle cx="1216.0" cy="280.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT4"/>
 <text text-anchor="start" x="1245.0" y="289.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT4</tspan></text>
 <circle cx="1200.0" cy="280.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="OUT3" pointer-events="visible">
+<g class="Output" id="OUT3">
 <circle cx="1216.0" cy="240.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="tri_OUT3"/>
 <circle cx="1216.0" cy="240.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT3"/>
 <text text-anchor="start" x="1245.0" y="249.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT3</tspan></text>
 <circle cx="1200.0" cy="240.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="OUT2" pointer-events="visible">
+<g class="Output" id="OUT2">
 <circle cx="1216.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="tri_OUT2"/>
 <circle cx="1216.0" cy="200.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT2"/>
 <text text-anchor="start" x="1245.0" y="209.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT2</tspan></text>
 <circle cx="1200.0" cy="200.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="OUT1" pointer-events="visible">
+<g class="Output" id="OUT1">
 <circle cx="1216.0" cy="160.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="tri_OUT1"/>
 <circle cx="1216.0" cy="160.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT1"/>
 <text text-anchor="start" x="1245.0" y="169.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT1</tspan></text>
 <circle cx="1200.0" cy="160.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="OUT0" pointer-events="visible">
+<g class="Output" id="OUT0">
 <circle cx="1216.0" cy="120.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="tri_OUT0"/>
 <circle cx="1216.0" cy="120.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT0"/>
 <text text-anchor="start" x="1245.0" y="129.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT0</tspan></text>
 <circle cx="1200.0" cy="120.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="ISCARRY" pointer-events="visible">
+<g class="Output" id="ISCARRY">
 <circle cx="1216.0" cy="500.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="alu_CO"/>
 <circle cx="1216.0" cy="500.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="ISCARRY"/>
 <text text-anchor="start" x="1245.0" y="509.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">ISCARRY</tspan></text>
 <circle cx="1200.0" cy="500.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
 </g>
-<g class="Output" id="ISZERO" pointer-events="visible">
+<g class="Output" id="ISZERO">
 <circle cx="1216.0" cy="540.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="isZero_OUT"/>
 <circle cx="1216.0" cy="540.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="ISZERO"/>
 <text text-anchor="start" x="1245.0" y="549.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">ISZERO</tspan></text>
