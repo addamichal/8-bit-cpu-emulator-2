@@ -42,10 +42,11 @@ const paintOutputs = (components: Element[], componentLookup: Record<string, Ele
   let ram: number[] = new Array(16).fill(0);
 
   for (let component of components) {
-    if (component.id.startsWith('MEMORYCONTENTS_RAM_memory') && component.id.includes('_latch_Q') && component.type === 'Output' && component.parentType === 'DLATCH') {
-      let parts = component.id.replace('MEMORYCONTENTS_RAM_memory', '').split('_');
-      let i = Number.parseInt(parts[0]);
-      let bitValue = Number.parseInt(parts[1].replace('_latch_latch_Q', ''));
+    if (component.id.startsWith('MEMORYCONTENTS_ram_memory') && component.id.includes('_latch_Q') && component.type === 'Output' && component.parentType === 'DLATCH') {
+      let [first, ...rest] =  component.id.replace('MEMORYCONTENTS_ram_memory', '').split('_');
+      let i = Number.parseInt(first);
+      let restJoined = rest.join('_').replace('memory', '');
+      let bitValue = Number.parseInt(restJoined.replace('_latch_latch_Q', ''));
       let mask = +component.outputs.OUT << bitValue;
       ram[i] = ram[i] | mask
     }
