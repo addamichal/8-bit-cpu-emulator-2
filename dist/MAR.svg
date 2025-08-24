@@ -12,7 +12,7 @@
 <path d="M 520,300 L 540,300 L 540,280 L 640,280" stroke="#0000b2" stroke-width="4.0" fill="none" class="D1"/>
 <path d="M 520,460 L 900,460 L 900,80 L 940,80" stroke="#0000b2" stroke-width="4.0" fill="none" class="MODE"/>
 <path d="M 1000,-80 L 1080,-80" stroke="#0000b2" stroke-width="4.0" fill="none" class="mux_Y0"/>
-<path d="M 520,-80 L 940,-80" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIPA0"/>
+<path d="M 520,-80 L 940,-80" stroke="#0000b2" stroke-width="4.0" fill="none" class="DIPD0"/>
 <path d="M 780,240 L 840,240 L 840,40 L 940,40" stroke="#0000b2" stroke-width="4.0" fill="none" class="register_OUT2"/>
 <path d="M 1000,-20 L 1020,-20 L 1020,40 L 1080,40" stroke="#0000b2" stroke-width="4.0" fill="none" class="mux_Y3"/>
 <path d="M 520,340 L 560,340 L 560,300 L 640,300" stroke="#0000b2" stroke-width="4.0" fill="none" class="D2"/>
@@ -22,10 +22,10 @@
 <path d="M 780,220 L 820,220 L 820,20 L 940,20" stroke="#0000b2" stroke-width="4.0" fill="none" class="register_OUT1"/>
 <g>
 </g>
-<g class="Input" id="DIPA0" pointer-events="visible">
+<g class="Input" id="DIPD0" pointer-events="visible">
 <path d="M 489,-95 L 519,-95 L 519,-65 L 489,-65 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
-<circle cx="504.0" cy="-80.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIPA0"/>
-<text text-anchor="end" x="475.0" y="-71.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIPA0</tspan></text>
+<circle cx="504.0" cy="-80.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="DIPD0"/>
+<text text-anchor="end" x="475.0" y="-71.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">DIPD0</tspan></text>
 <circle cx="520.0" cy="-80.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
 </g>
 <g class="Input" id="DIPD1" pointer-events="visible">

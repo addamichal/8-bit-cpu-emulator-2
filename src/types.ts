@@ -845,15 +845,20 @@ export interface OUTPUTREGISTER {
 
 export interface MAR {
   id: string;
-  type: 'MAR2';
+  type: 'MAR';
   inputs: {
     D0: string;
     D1: string;
     D2: string;
     D3: string;
+    DIPD0: string;
+    DIPD1: string;
+    DIPD2: string;
+    DIPD3: string;
     MI: string;
     CLK: string;
     CLR: string;
+    MODE: string;
     [key: string]: string;
   };
 }
@@ -864,10 +869,9 @@ export interface MEMORYCONTENTS {
   inputs: {
     MODE: string;
     WRITE: string;
-    DIPA0: string;
-    DIPA1: string;
-    DIPA2: string;
-    DIPA3: string;
+    RI: string;
+    RO: string;
+    CLK: string;
     A0: string;
     A1: string;
     A2: string;
@@ -888,9 +892,6 @@ export interface MEMORYCONTENTS {
     D5: string;
     D6: string;
     D7: string;
-    RI: string;
-    RO: string;
-    CLK: string;
     [key: string]: string;
   };
 }

@@ -532,15 +532,20 @@ export let cpu: Element[] = [
     },
     {
         id: 'MAR',
-        type: 'MAR2',
+        type: 'MAR',
         inputs: {
+            DIPD0: 'DIPA0.OUT', 
+            DIPD1: 'DIPA1.OUT', 
+            DIPD2: 'DIPA2.OUT', 
+            DIPD3: 'DIPA3.OUT',
             D0: 'BUS0.OUT',
             D1: 'BUS1.OUT',
             D2: 'BUS2.OUT',
             D3: 'BUS3.OUT',
             MI: 'MI.OUT',
             CLK: 'CLK.OUT',
-            CLR: 'CLR.OUT'
+            CLR: 'CLR.OUT',
+            MODE: 'MODE.OUT'
         }
     },
     {
@@ -620,32 +625,31 @@ export let cpu: Element[] = [
             DIPD0: 'DIPD0.OUT', DIPD1: 'DIPD1.OUT', DIPD2: 'DIPD2.OUT', DIPD3: 'DIPD3.OUT', DIPD4: 'DIPD4.OUT', DIPD5: 'DIPD5.OUT', DIPD6: 'DIPD6.OUT', DIPD7: 'DIPD7.OUT',
             D0: 'BUS0.OUT', D1: 'BUS1.OUT', D2: 'BUS2.OUT', D3: 'BUS3.OUT', D4: 'BUS4.OUT', D5: 'BUS5.OUT', D6: 'BUS6.OUT', D7: 'BUS7.OUT',
             A0: 'MAR.REG0', A1: 'MAR.REG1', A2: 'MAR.REG2', A3: 'MAR.REG3',
-            DIPA0: 'DIPA0.OUT', DIPA1: 'DIPA1.OUT', DIPA2: 'DIPA2.OUT', DIPA3: 'DIPA3.OUT',
             MODE: 'MODE.OUT', WRITE: 'WRITE.OUT', CLK: 'CLK.OUT', RI: 'RI.OUT', RO: 'RO.OUT'
         }
     },
     {
         id: 'SELADDR0',
         type: 'Output',
-        inputs: { IN: 'MEMORYCONTENTS.SELADDR0' },
+        inputs: { IN: 'MAR.REG0' },
         outputs: { OUT: false }
     },
     {
         id: 'SELADDR1',
         type: 'Output',
-        inputs: { IN: 'MEMORYCONTENTS.SELADDR1' },
+        inputs: { IN: 'MAR.REG1' },
         outputs: { OUT: false }
     },
     {
         id: 'SELADDR2',
         type: 'Output',
-        inputs: { IN: 'MEMORYCONTENTS.SELADDR2' },
+        inputs: { IN: 'MAR.REG2' },
         outputs: { OUT: false }
     },
     {
         id: 'SELADDR3',
         type: 'Output',
-        inputs: { IN: 'MEMORYCONTENTS.SELADDR3' },
+        inputs: { IN: 'MAR.REG3' },
         outputs: { OUT: false }
     },
     {
