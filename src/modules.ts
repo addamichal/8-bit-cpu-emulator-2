@@ -1479,7 +1479,7 @@ export const modules: Circuit[] = [
         outputs: { OUT: false }
       },
       {
-        id: 'mux8',
+        id: 'mux0',
         type: 'MUX8',
         inputs: {
           A0: 'DIPD0.OUT', A1: 'DIPD1.OUT', A2: 'DIPD2.OUT', A3: 'DIPD3.OUT', A4: 'DIPD4.OUT', A5: 'DIPD5.OUT', A6: 'DIPD6.OUT', A7: 'DIPD7.OUT',
@@ -1493,65 +1493,65 @@ export const modules: Circuit[] = [
         inputs: { A: 'RI.OUT', B: 'CLK.OUT' }
       },
       {
-        id: 'mux',
+        id: 'mux1',
         type: 'MUX',
         inputs: { A: 'WRITE.OUT', B: 'and.OUT', SEL: 'MODE.OUT' }
       },
       {
-        id: 'RAM',
+        id: 'ram',
         type: 'RAM',
         inputs: {
           A0: 'A0.OUT', A1: 'A1.OUT', A2: 'A2.OUT', A3: 'A3.OUT',
-          D0: 'mux8.Y0', D1: 'mux8.Y1', D2: 'mux8.Y2', D3: 'mux8.Y3', D4: 'mux8.Y4', D5: 'mux8.Y5', D6: 'mux8.Y6', D7: 'mux8.Y7',
-          E: 'CONST_1', W: 'mux.Y'
+          D0: 'mux0.Y0', D1: 'mux0.Y1', D2: 'mux0.Y2', D3: 'mux0.Y3', D4: 'mux0.Y4', D5: 'mux0.Y5', D6: 'mux0.Y6', D7: 'mux0.Y7',
+          E: 'CONST_1', W: 'mux1.Y'
         }
       },
       {
         id: 'RAM0',
         type: 'Output',
-        inputs: { IN: 'RAM.O0' },
+        inputs: { IN: 'ram.O0' },
         outputs: { OUT: false }
       },
       {
         id: 'RAM1',
         type: 'Output',
-        inputs: { IN: 'RAM.O1' },
+        inputs: { IN: 'ram.O1' },
         outputs: { OUT: false }
       },
       {
         id: 'RAM2',
         type: 'Output',
-        inputs: { IN: 'RAM.O2' },
+        inputs: { IN: 'ram.O2' },
         outputs: { OUT: false }
       },
       {
         id: 'RAM3',
         type: 'Output',
-        inputs: { IN: 'RAM.O3' },
+        inputs: { IN: 'ram.O3' },
         outputs: { OUT: false }
       },
       {
         id: 'RAM4',
         type: 'Output',
-        inputs: { IN: 'RAM.O4' },
+        inputs: { IN: 'ram.O4' },
         outputs: { OUT: false }
       },
       {
         id: 'RAM5',
         type: 'Output',
-        inputs: { IN: 'RAM.O5' },
+        inputs: { IN: 'ram.O5' },
         outputs: { OUT: false }
       },
       {
         id: 'RAM6',
         type: 'Output',
-        inputs: { IN: 'RAM.O6' },
+        inputs: { IN: 'ram.O6' },
         outputs: { OUT: false }
       },
       {
         id: 'RAM7',
         type: 'Output',
-        inputs: { IN: 'RAM.O7' },
+        inputs: { IN: 'ram.O7' },
         outputs: { OUT: false }
       },
       {
@@ -1810,7 +1810,7 @@ export const modules: Circuit[] = [
         inputs: { IN: 'and.OUT' }
       },
       {
-        id: 'mux',
+        id: 'mux1',
         type: 'MUX',
         inputs: { A: 'WRITE.OUT', B: 'edge.OUT', SEL: 'MODE.OUT' }
       },
@@ -1820,7 +1820,7 @@ export const modules: Circuit[] = [
         inputs: {
           A0: 'SELADDR0.OUT', A1: 'SELADDR1.OUT', A2: 'SELADDR2.OUT', A3: 'SELADDR3.OUT',
           D0: 'mux8.Y0', D1: 'mux8.Y1', D2: 'mux8.Y2', D3: 'mux8.Y3', D4: 'mux8.Y4', D5: 'mux8.Y5', D6: 'mux8.Y6', D7: 'mux8.Y7',
-          E: 'CONST_1', W: 'mux.Y'
+          E: 'CONST_1', W: 'mux1.Y'
         }
       },
       {

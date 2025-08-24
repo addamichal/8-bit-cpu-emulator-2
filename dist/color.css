@@ -2138,6 +2138,61 @@
     stroke: #7B68EE;
 }
 
-.MODE, .MI {
+.MODE, .MI, .WRITE, .RI, .RO {
     stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.DIPD0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.DIPD1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.DIPD2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.DIPD3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.DIPD4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.DIPD5 {
+
+}
+
+/* SeaGreen */
+.DIPD6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.DIPD7 {
+    stroke: #7B68EE;
+}
+
+
+/* SeaGreen */
+.mux0_Y0, .mux0_Y1, .mux0_Y2, .mux0_Y3, .mux0_Y4, .mux0_Y5, .mux0_Y6, .mux0_Y7 {
+    stroke: #FF1493;
+}
+
+/* SeaGreen */
+.ram_O0, .ram_O1, .ram_O2, .ram_O3, .ram_O4, .ram_O5, .ram_O6, .ram_O7 {
+    stroke: #FF1493;
+}
+
+.tri8_OUT0, .tri8_OUT1, .tri8_OUT2, .tri8_OUT3, .tri8_OUT4, .tri8_OUT5, .tri8_OUT6, .tri8_OUT7 {
+    stroke: #2E8B57;
 }
